@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.tillana-medium {
+    font-family: "Tillana", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Tillana';
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Tillana", system-ui;
+
+    font-weight: 600;
+    font-style: normal;
+    size: 24px;
+}
+
+h1 {
+    font-family: "Tillana", system-ui;
+    color: #810000;
+    font-style: normal;
+    size: 32px;
+}
+
+header {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image {
+    position: absolute;
+    top: 90px;
+    width: 1000000px;
+    height: 7px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3b3b3b;
+    display: flex;
+    align-items: center;
+}
+
+.page {
+    text-decoration: none;
+    color: #810000;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+
+}
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    min-height: 100vh;
+    /* Ensure the body takes up at least the full viewport height */
+    margin: 0;
+    /* Remove default body margin */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.home-image {
+    width: auto;
+    height: auto;
+}
+
+.typography-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    /* padding: 10px 20%; */
+    /* align-items: center; */
+}
+
+.wrapper {
+    max-width: 1275px;
+    margin: auto;
+}
+
+.pad {
+    padding: 0px 80px;
+}
+
+.imgPad {
+    align-items: right;
+    padding: 0px 90px;
+    max-height: 150px;
+    min-width: 10%;
+}
+
+.typeAsImg {
+    width: max-content;
+}
+
+.grey-background {
+    background-color: #f5f5f5;
+    align-items: center;
+    padding: 5% 20%;
+}
+.white-background {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 5% 17%;
+}
+
+.vertNav {
+    position: absolute;
+    top: 50px;
+    translate: -10px;
+    width: 7px;
+    height: 45px;
+}
+.bigLetter {
+    font-size: 40px;
+    color: #3b3b3b;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+}
